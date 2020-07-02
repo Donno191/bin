@@ -1,0 +1,9 @@
+ #!/bin/sh
+
+# Author : Donovan Fourie
+# Copyright (c) donnotec.com
+# Scrypt for SCANNING HP LaserJET M1217 nfw MFP
+
+$(scanimage -L)
+$(xsane)
+
